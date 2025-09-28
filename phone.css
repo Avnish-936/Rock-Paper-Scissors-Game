@@ -1,4 +1,4 @@
-@media (min-width: 401px) and (max-width: 600px) {
+@media (min-width: 455px) and (max-width: 600px) {
     body {
         font-size: 18px;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 452px){
+@media (min-width: 390px) and (max-width: 455px){
     .choices{
         gap: 0.5rem;
     }
@@ -58,5 +58,30 @@
     }
 }
 
+@media (max-width: 390px){
+    .choices{
+        gap: 0.5rem;
+    }
 
+    .choice{
+        height: 5.5rem;
+        width: 5.5rem;
+    }
 
+    .choice:hover {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #081b31;
+    }
+
+    img{
+        height: 5rem;
+        width: 5rem;
+        object-fit: cover;
+    }
+
+    #msg,
+    #new-game {
+        font-size: small;
+    }
+}
