@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media (min-width: 401px) and (max-width: 600px) {
     body {
         font-size: 18px;
     }
@@ -29,7 +29,7 @@
     }
 }
 
-@media only screen and (max-width: 600px){
+@media (max-width: 400px){
     .choices{
         gap: 0.5rem;
     }
@@ -50,3 +50,4 @@
         width: 6rem;
     }
 }
+
