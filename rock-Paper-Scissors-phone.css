@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .choices {
+        gap: 1rem;
+    }
+
+    .choice {
+        height: 8rem;
+        width: 8rem
+    }
+
+    .choice:hover {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #081b31;
+    }
+
+    img {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    #msg,
+    #new-game {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .choices{
+        gap: 0.5rem;
+    }
+
+    .choice{
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .choice:hover {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #081b31;
+    }
+
+    img{
+        height: 6rem;
+        width: 6rem;
+    }
+}
